@@ -229,8 +229,7 @@ class haproxy(logfile):
 			if self.regexFind(c1='BACKEND',c2=a[t])\
 			or self.regexFind(c1='FRONTEND',c2=a[t])\
 			or self.regexFind(c1='UP',c2=a[t])\
-			or self.regexFind(c1='hrsp_other',c2=a[t])\
-			or self.regexFind(c1='dianzipiaoju_out',c2=a[t]):
+			or self.regexFind(c1='hrsp_other',c2=a[t]):
 				del a[t]
 			else:
 				t+=1
