@@ -222,7 +222,6 @@ class haproxy(logfile):
 				break
 			'''
 			if 'BACKEND' in a[t].split(',') or \
-			'dianzipiaoju_out' in a[t].split(',') or \
 			'FRONTEND' in a[t].split(',') or \
 			'UP' in a[t].split(',') or \
 			'hrsp_other' in a[t].split(','):
